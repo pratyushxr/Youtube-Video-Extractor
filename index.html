@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Tags Extractor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>YouTube Video Tags Extractor</h1>
+        <input type="text" id="videoUrl" placeholder="Enter YouTube Video URL">
+        <button id="extractButton">Extract Tags</button>
+        <div class="tags-box hidden" id="tags"></div>
+        <button id="copyTagsButton" class="hidden">Copy Tags</button>
+        <button id="clearTagsButton" class="hidden" onclick="clearAllTags()">Clear Tags</button>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

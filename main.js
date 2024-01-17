@@ -20,8 +20,8 @@ function displayTags(tags) {
 
 // Function to extract video tags
 function extractVideoTags(videoId) {
-    const apiKey = 'AIzaSyD-lKWAr0C_mtWqSd4wf5BvVJldQ04m_ig'; // Replace with your YouTube API key
-    const apiUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=${apiKey}`;
+    const apiKey = 'Give Your Api Key'; // Replace with your YouTube API key
+    const apiUrl = `Give Your Api Ur`;
 
     fetch(apiUrl)
         .then(response => response.json())

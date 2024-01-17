@@ -21,7 +21,7 @@ function displayTags(tags) {
 // Function to extract video tags
 function extractVideoTags(videoId) {
     const apiKey = 'Give Your Api Key'; // Replace with your YouTube API key
-    const apiUrl = `Give Your Api Ur`;
+    const apiUrl = `Give Your Api Url`;
 
     fetch(apiUrl)
         .then(response => response.json())
